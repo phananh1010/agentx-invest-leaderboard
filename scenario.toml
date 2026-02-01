@@ -1,16 +1,12 @@
 [green_agent]
-agentbeats_id = ""
-env = { API_KEY = "${OPENAI_API_KEY}", LOG_LEVEL = "INFO" }
-
-[[participants]]
 agentbeats_id = "019c1771-ca01-7d13-86b7-3bf6dc63e8dc"
-name = "role_1_name"
-env = {}
+env = { PERPLEXITY_API_KEY = "${PERPLEXITY_API_KEY}", LOG_LEVEL = "INFO" }
+
 
 [[participants]]
 agentbeats_id = "019c1774-6f6e-7e00-a92b-ff6c3e48aa32"
-name = "role_2_name"
-env = {}
+name = "purple researcher"
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", LOG_LEVEL = "INFO" }
 
 [config]
 domain = "invest"
