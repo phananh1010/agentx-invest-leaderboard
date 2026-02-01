@@ -1,16 +1,17 @@
 [green_agent]
 agentbeats_id = ""
-env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
+env = { API_KEY = "${OPENAI_API_KEY}", LOG_LEVEL = "INFO" }
 
 [[participants]]
-agentbeats_id = ""
+agentbeats_id = "019c1771-ca01-7d13-86b7-3bf6dc63e8dc"
 name = "role_1_name"
 env = {}
 
 [[participants]]
-agentbeats_id = ""
+agentbeats_id = "019c1774-6f6e-7e00-a92b-ff6c3e48aa32"
 name = "role_2_name"
 env = {}
 
 [config]
-# Add your assessment config here
+domain = "invest"
+num_tasks = 3
