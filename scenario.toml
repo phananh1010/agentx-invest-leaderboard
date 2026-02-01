@@ -6,7 +6,7 @@ env = { PERPLEXITY_API_KEY = "${PERPLEXITY_API_KEY}", LOG_LEVEL = "INFO" }
 [[participants]]
 agentbeats_id = "019c1774-6f6e-7e00-a92b-ff6c3e48aa32"
 name = "purple researcher"
-env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", LOG_LEVEL = "INFO" }
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", PERPLEXITY_API_KEY = "${PERPLEXITY_API_KEY}", LOG_LEVEL = "INFO" }
 
 [config]
 domain = "invest"
